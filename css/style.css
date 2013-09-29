@@ -303,9 +303,9 @@ td { vertical-align: top; }
   -moz-border-radius-bottomleft:0px;
   -webkit-border-radius:4px 4px 0px 0px;
   border-radius:4px 4px 0px 0px;
-  -webkit-box-shadow:0px 3px 10px 5px rgba(0,0,0,0.5);
-  -moz-box-shadow:0px 3px 10px 5px rgba(0,0,0,0.5);
-  box-shadow:0px 3px 10px 5px rgba(0,0,0,0.5);
+  -webkit-box-shadow:0px 3px 10px 5px rgba(0,0,0,0.2);
+  -moz-box-shadow:0px 3px 10px 5px rgba(0,0,0,0.2);
+  box-shadow:0px 3px 10px 5px rgba(0,0,0,0.2);
 }
 
 .home-dashboard:before {
@@ -315,19 +315,19 @@ td { vertical-align: top; }
   left:0;
   right:0;
   bottom:0;
-  -webkit-box-shadow:inset 0px 2px 2px 0px rgba(0,0,0,0.3);
-  -moz-box-shadow:inset 0px 2px 2px 0px rgba(0,0,0,0.3);
-  box-shadow:inset 0px 2px 2px 0px rgba(0,0,0,0.3);
+  -webkit-box-shadow:inset 0px 2px 2px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow:inset 0px 2px 2px 0px rgba(0,0,0,0.2);
+  box-shadow:inset 0px 2px 2px 0px rgba(0,0,0,0.2);
 }
 
 .home-mobile {
   position:absolute;
   top:76px;
-  left:762px;
+  left:770px;
   width:163px;
   height:294px;
-  padding-top:56px;
-  padding-left:15px;
+  padding-top:50px;
+  padding-left:20px;
   z-index:10;
   background:transparent url('../img/mobile-bg.png') no-repeat top left;
 }
@@ -337,15 +337,15 @@ td { vertical-align: top; }
   content:'';
   top:3px;
   left:0px;
-  right:6px;
+  right:8px;
   bottom:0;
   z-index:-5;
-  -webkit-border-radius:25px;
-  -moz-border-radius:25px;
-  border-radius:25px;
-  -webkit-box-shadow:0px 3px 10px 5px rgba(0,0,0,0.5);
-  -moz-box-shadow:0px 3px 10px 5px rgba(0,0,0,0.5);
-  box-shadow:0px 3px 10px 5px rgba(0,0,0,0.5);
+  -webkit-border-radius:30px;
+  -moz-border-radius:30px;
+  border-radius:30px;
+  -webkit-box-shadow:0px 3px 10px 5px rgba(0,0,0,0.2);
+  -moz-box-shadow:0px 3px 10px 5px rgba(0,0,0,0.2);
+  box-shadow:0px 3px 10px 5px rgba(0,0,0,0.2);
 }
 
 .home #top-header { background:rgba(0,0,0,0.2); }
@@ -376,6 +376,7 @@ nav a.cta {
   -webkit-border-radius:3px;
   -moz-border-radius:3px;
   border-radius:3px;
+  /* Replace with your color */
   background-color:#ee6100;
   background-repeat:repeat-x;
   background-image:-khtml-gradient(linear,left top,left bottom,from(#ff9422),to(#ee6100));
@@ -396,6 +397,7 @@ nav a.cta {
 }
 
 nav a.cta:hover {
+  /* Replace with your color */
   background-color:#ff7200;
   background-repeat:repeat-x;
   background-image:-khtml-gradient(linear,left top,left bottom,from(#ffa533),to(#ff7200));
@@ -415,11 +417,13 @@ nav a.cta:hover {
   position:relative;
   z-index:50;
   top:-35px;
+  width:260px;
+  text-align:center;
   margin:0 auto;
   font-weight:bold;
   text-transform:uppercase;
   letter-spacing:1px;
-  font-size:20px;
+  font-size:18px;
   padding:20px;
   -webkit-border-radius:10px;
   -moz-border-radius:10px;
@@ -429,6 +433,7 @@ nav a.cta:hover {
   text-shadow:0 -1px 1px rgba(0,0,0,0.25);
   cursor:pointer;
   cursor:hand;
+  /* Replace with your color */
   background-color:#ee6100;
   background-repeat:repeat-x;
   background-image:-khtml-gradient(linear,left top,left bottom,from(#ff9422),to(#ee6100));
@@ -441,12 +446,13 @@ nav a.cta:hover {
   filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff9422', endColorstr='#ee6100', GradientType=0);
   border-color:#ee6100 #ee6100 #a24200;
   border-color:rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
-  -webkit-box-shadow:0px 2px 6px 1px rgba(0,0,0,0.3);
-  -moz-box-shadow:0px 2px 6px 1px rgba(0,0,0,0.3);
-  box-shadow:0px 2px 6px 1px rgba(0,0,0,0.3);
+  -webkit-box-shadow:0px 2px 2px 1px rgba(0,0,0,0.15);
+  -moz-box-shadow:0px 2px 2px 1px rgba(0,0,0,0.15);
+  box-shadow:0px 2px 2px 1px rgba(0,0,0,0.15);
 }
 
 .main-cta-button:hover {
+  /* Replace with your color */
   background-color:#ff7200;
   background-repeat:repeat-x;
   background-image:-khtml-gradient(linear,left top,left bottom,from(#ffa533),to(#ff7200));
@@ -468,10 +474,11 @@ nav a.cta:hover {
   text-transform:uppercase;
   text-align:center;
   color:#656565;
-  text-shadow:0 1px 0 rgba(255,255,255,1);
+  text-shadow:0 1px 0 rgba(255,255,255,0.5);
 }
 
 .spotlight-features {
+  /* Replace with your color */
   border-top:1px solid #b6b6b6;
   border-bottom:1px solid #b6b6b6;
   background:#e8e8e8;
@@ -486,18 +493,6 @@ nav a.cta:hover {
   -moz-box-shadow:inset 0px 1px 1px 1px rgba(255,255,255,1);
   box-shadow:inset 0px 1px 1px 1px rgba(255,255,255,1);
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ==|== media queries ======================================================
    EXAMPLE Media Query for Responsive Design.
