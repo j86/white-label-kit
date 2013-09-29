@@ -1,4 +1,4 @@
-white Label Kit
+White Label Kit
 ===============
 
 A skeleton landing page and some media to start off white label partners.
