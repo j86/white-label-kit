@@ -221,7 +221,7 @@ td { vertical-align: top; }
 .gap { margin-top:30px; }
 
 .home-spotlight-wrap {
-  background:url('../img/body-bg.png');
+  background:url('../img/bodybg.png');
   /*
   Full-Size BG
   -moz-background-size:100% auto;
@@ -324,7 +324,7 @@ td { vertical-align: top; }
   position:absolute;
   top:76px;
   left:770px;
-  width:163px;
+  width:158px;
   height:294px;
   padding-top:50px;
   padding-left:20px;
